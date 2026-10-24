@@ -1,0 +1,56 @@
+{
+  "info": {
+    "_postman_id": "612ecf5b-22af-4ab0-bcf9-5ea57ecdafbe",
+    "name": "Maps API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "9722805"
+  },
+  "item": [
+    {
+      "name": "geocode",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyByzR8K_J6xGNoedeQGlA9GR57gwoJRASM&address=Av. Morán Valverde y Rumichaca, Quito, Ecuador",
+          "protocol": "https",
+          "host": [
+            "maps",
+            "googleapis",
+            "com"
+          ],
+          "path": [
+            "maps",
+            "api",
+            "geocode",
+            "json"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "AIzaSyByzR8K_J6xGNoedeQGlA9GR57gwoJRASM",
+              "type": "text"
+            },
+            {
+              "key": "address",
+              "value": "Av. Morán Valverde y Rumichaca, Quito, Ecuador",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "distancematrix",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
